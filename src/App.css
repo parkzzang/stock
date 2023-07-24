@@ -1,0 +1,222 @@
+/*.list {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: white;
+}
+
+.header {
+  background-color: red;
+}
+
+.black-nav {
+  background: #37474F;
+  color: white;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px;
+}
+
+.edit_bar {
+  background: black;
+  color: white;
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.edit {
+  background: rgb(67, 0, 0);
+  color: white;
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+}*/
+
+
+.App {
+  text-align: center;
+  font-family: 'SUITE-Regular';
+}
+
+.imageHeader {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 30%,
+    rgba(255,255,255,1) 100%
+  ), url("./stock.jpg");
+  background-size: cover;
+  height: 40vh;
+  text-align: center;
+}
+.resultHeader {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 90%,
+    rgba(255,255,255,1) 100%
+  ), url("./cry.jpg");
+  background-size: cover;
+  height: 20vh;
+  text-align: center;
+}
+
+.inHeader {
+  padding: 10px;
+}
+
+.headerText {
+  margin-right: 20px;
+  font-size: x-large;
+}
+.containerText {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.two {
+  font-family: 'SUITE-Regular';
+  font-weight: bolder;
+  /*height: 55vh;*/
+}
+
+.button_minor {
+  background-color: rgba(0,0,0,0);
+  border-color: #5162FF;
+  border-radius: 5px;
+  border-width: thin;
+  color: #5162FF;
+  height: 30px;
+  width: 30px;
+}
+.button_home {
+  background-color: rgba(0,0,0,0);
+  border-color: #5162FF;
+  border-radius: 5px;
+  border-width: thin;
+  color: #5162FF;
+  height: 30px;
+  width: 30%;
+  margin: 15px;
+}
+.button_input {
+  background-color: rgba(0,0,0,0);
+  border-color: #5162FF;
+  border-radius: 5px;
+  border-width: thin;
+  color: #5162FF;
+  height: 40px;
+  width: 100%;
+  font-size: medium;
+}
+.button_major {
+  background-color: #5162FF;
+  border-color: #5162FF;
+  border-radius: 5px;
+  border-width: thin;
+  color: white;
+  height: 50px;
+  width: 50%;
+  font-size: large;
+}
+.button_share {
+  background-color: #5162FF;
+  border-color: #5162FF;
+  border-radius: 5px;
+  border-width: thin;
+  color: white;
+  height: 50px;
+  width: 50%;
+  font-size: large;
+}
+
+
+.lowContainer {
+  margin: 30px;
+  background-color: white;
+  text-align: left;
+}
+.lowButton {
+  margin-top: 35px;
+  background-color: white;
+  text-align: center;
+}
+
+.resultContainer {
+  margin: 30px;
+  font-size: 380%;
+  font-family: 'PartialSansKR-Regular';
+}
+.resultMiddle {
+  font-size: xx-large;
+}
+.resultLow {
+  text-align: justify;
+  font-size: small;
+  margin: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PartialSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
